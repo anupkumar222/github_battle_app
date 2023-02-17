@@ -1,0 +1,282 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom css */
+
+/* popular */
+.flex {
+    display: flex;
+}
+.space-around {
+    justify-content: space-around;
+}
+
+.active {
+    color: goldenrod;
+}
+.header {
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    text-decoration:solid;
+}
+.tab {
+    margin-left: 2rem;
+    text-decoration: none;
+}
+.lang-button {
+    border: none;
+    background-color: white;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    color: brown;
+}
+.card-wraper {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+h4{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem;
+    text-align: center;
+}
+h2{
+    font-size: 1,2rem;
+    font-weight: 700;
+    margin: 1rem;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+.single-card {
+    width: 21%;
+  
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color:rgb(206, 206, 206);
+}
+figure {
+    width: 80%;
+    margin: 1rem auto;
+}
+.icon-text {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+.user {
+    font-weight: 600;
+}
+.fas {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.fa-user {
+    color: coral;
+}
+.fa-star {
+    color: yellow;
+}
+.fa-code-branch {
+    color: darkcyan;
+}
+.fa-triangle-exclamation {
+    color: rgb(143, 128, 131);
+}
+
+/* battle */
+
+
+.instruction {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .heading-battle {
+    font-size: 2.2rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+  }
+  .fa-users {
+    font-size: 8rem;
+    margin-top: 1.5rem;
+    color: #FDC074;
+  }
+  .fa-battle-net {
+    font-size: 8rem;
+    margin-top: 1.5rem;
+    
+    color: gray;
+  }
+  
+  .fa-trophy {
+    font-size: 8rem;
+    margin-top: 1.5rem;
+    color: #FCD602;
+  }
+  
+  .players {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  }
+  input {
+    width: 20rem;
+    /* height: 3rem; */
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+  }
+  .player-btn {
+  font-size: 1.5rem;
+  }
+  .player {
+    position: relative;
+  }
+  .battle-user {
+    padding: 0.5rem;
+    width: 28rem;
+    height: 3rem;
+    justify-content: space-between;
+    position: absolute;
+    top: 2.05rem;
+    background-color: gray;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+  .btn-container {
+    text-align: center;
+    margin-top: 6rem;
+  }
+  
+  .battle-btn {
+    padding: 0.8rem 3rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+  }
+  
+  
+  /* wiiner/looser */
+  
+  .container-battle {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 4rem;
+    
+  }
+  
+  .winner {
+    padding:2rem 1.3rem ;
+    background-color: gray;
+    font-size: 1.5rem;
+   
+  } 
+  
+  .winner-box {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .winner-img {
+    width: 15rem;
+    border-radius: 50%;
+    margin: 1.5rem 0;
+  }
+  .winner-heading{
+    color: green;
+  }
+  
+  .looser {
+    padding:2rem 1.3rem ;
+    background-color: gray;
+    font-size: 1.5rem;
+   
+  } 
+  
+  .looser-box {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .looser-img {
+    width: 15rem;
+    border-radius: 50%;
+    margin: 1.5rem 0;
+  }
+  
+  .looser-heading{
+    color: red;
+  }
+  
+  .reset {
+    text-align: center;
+    margin-top: 6rem;
+  }
+  
+  .reset-btn {
+    padding: 0.8rem 3rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+  }
+  .pic {
+    width: 20%;
+    border-radius: 50%;
+  }
+  .battle-user-name{
+    padding: 1rem;
+  }
+  .del {
+    width: 10%;
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 50%;
+  }
