@@ -7,11 +7,15 @@ class Header extends React.Component {
         return (    
             <div className="header">
                 <nav>
-                <NavLink to="/" activeClassName="active" className="tab" exact>
+                <NavLink to="/" 
+                activeClassName="active"
+                 className="tab" exact>
                     Popular
                 </NavLink>
             
-                <NavLink to="/battle" activeClassName="active" className="tab">
+                <NavLink to="/battle" 
+                activeClassName="active" 
+                className="tab">
                     Battle
                 </NavLink>
                 </nav>
